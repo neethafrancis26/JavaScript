@@ -65,7 +65,7 @@ for (i in a){
     sums +=Number(a[i]); 
 }
 console.log(msg)
-console.log(sums);
+console.log("Sum of Number: " + sums);
 
 // Question 3.e: Filter out item "3" from the array and console the array (use array method)
 a = ["1", "2", "3", "4", "5", "6", "7"];
@@ -87,7 +87,7 @@ a = ["1", "2", "3", "4", "5", "6", "7"];
 var b = [1, 2, "3", 4, 5, 6, "7"];
 for(let i=0; i<a.length; i++){
     for(let j = 0; j<b.length; j++){
-        if(typeof a[i]=== typeof b[j]){
+        if(typeof a[i] === typeof b[j]){
             console.log(`Element ${a[i]} and ${b[j]} have same data type of ${typeof a[i]}`);
         }
     }
@@ -98,7 +98,7 @@ a = [0, 2, 3, 7, 5, 6, 8];
 let result = 0;
 for(i = 0 ;i<a.length; i++){
     result = a[i] * i; 
-    if (result>=40){
+    if (result >= 40){
         console.log("The result is: " + result );
     }
 }
